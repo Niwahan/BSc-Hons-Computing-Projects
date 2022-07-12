@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="Description" content="Portfolio" />
+    <meta name="Keywords" content="Portfolio, CV, Blogs, Technology" />
+    <meta name="Author" content="Niwahang Angbuhang" />
+    <title>Photos</title>
+    <!-- External CSS is linked -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        /* Adding background image and setting the position and size */
+        background-image: url(BG/Bg2.jpg);
+        background-size: 100%, 100%;
+        background-position: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <!--Navigation bar is set up using unordered list-->
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="CV.html">CV</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li><a href="Research.html">Research</a></li>
+        <li class="current"><a href="#">Photos</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Some Photos</h1>
+    <p>
+      Here are some photos that I clicked last year. The photos are from
+      Mangsebung, Ilam.
+    </p>
+    <!-- Creating a Div class for every section-->
+    <div class="Images">
+      <div class="Container">
+        <!--Image is inserted and given class-->
+        <img class="Slide" src="Photos/1.jpg" />
+        <img class="Slide" src="Photos/2.jpg" />
+        <img class="Slide" src="Photos/3.jpg" />
+        <img class="Slide" src="Photos/4.jpg" />
+        <img class="Slide" src="Photos/5.jpg" />
+        <img class="Slide" src="Photos/6.jpg" />
+        <img class="Slide" src="Photos/7.jpg" />
+        <img class="Slide" src="Photos/8.jpg" />
+        <img class="Slide" src="Photos/9.jpg" />
+        <img class="Slide" src="Photos/10.jpg" />
+        <img class="Slide" src="Photos/11.jpg" />
+        <img class="Slide" src="Photos/12.jpg" />
+        <img class="Slide" src="Photos/13.jpg" />
+        <img class="Slide" src="Photos/14.jpg" />
+        <img class="Slide" src="Photos/15.jpg" />
+        <img class="Slide" src="Photos/16.jpg" />
+        <img class="Slide" src="Photos/17.jpg" />
+        <br /><br />
+        <!-- A button is added to do a function -->
+        <button onclick="change(-1)">Previous</button>
+        <!-- A button is added to do a function -->
+        <button onclick="change(1)">Next</button>
+      </div>
+    </div>
+    <!-- External JavaScrip is linked -->
+    <script src="main.js"></script>
+  </body>
+</html>

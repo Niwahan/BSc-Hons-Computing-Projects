@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="Description" content="Portfolio" />
+    <meta name="Keywords" content="Portfolio, CV, Blogs, Technology" />
+    <meta name="Author" content="Niwahang Angbuhang" />
+    <title>Contact</title>
+    <!-- External CSS is linked -->
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+    <nav>
+      <!--Navigation bar is set up using unordered list-->
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="CV.html">CV</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li><a href="Research.html">Research</a></li>
+        <li><a href="Photos.html">Photos</a></li>
+        <li class="current"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Contact</h1>
+      <!-- Creating a Div class for every section-->
+    <div class="flex">
+      <div class="left">
+        <div class="card">
+          <p>Please fill up the form and I'll contact you.</p>
+            <!--A form is created and a function is assigned-->
+          <form name="Register" onsubmit="Form()"> 
+            <!-- Input type text is inserted with placeholder -->
+            <p>First name: <input type="text" name="FirstName" placeholder="Enter your First Name"></p>
+            <p>Last name: <input type="text" name="LastName" placeholder="Enter your Last Name"></p>
+            <p>
+              Gender:
+              <!--Input type radio is inserted-->
+              <input type="radio" name="gender" value="Male" checked> Male
+              <input type="radio" name="gender" value="Female"> Female
+            </p>
+              <!-- Input type text is inserted with placeholder -->
+            <p>Phone Number: <input type="text" name="PhoneNumber" placeholder="Enter your phone number"></p>
+            <p>E-mail Address: <input type="text" name="Email" placeholder="Enter your E-mail Address" ></p>
+            <p>
+              <br>
+              <table>
+                <tr>
+                  <td>
+              Message:</td>
+              <td>
+                <!--Text area is created-->
+                <textarea
+                name="message"
+                rows="10"
+                cols="50"
+                placeholder="Please leave a suggestion if you have some."
+              ></textarea>
+              </td>
+              </tr>
+              </table>
+            </p>
+             <!--Input type submit is created and value is assigned-->
+            <p><input type="Submit" value="Submit"></input></p>
+          </form>
+        </div>
+      </div>
+      <div class="right">
+        <div class="card">
+          <h1>My Social Media</h1>
+            <!-- Link is inserted in a heading and paragraph tag-->
+          <p><h2><a href="https://facebook.com/niwahang2">Facebook</a></h2></p>
+          <p><h2><a href="https://instagram.com/niwahan">Instagram</a></h2></p>
+          <p><h2><a href="https://twitter.com/Niwanell">Twitter</a></h2></p>
+        </div>
+      </div>
+    </div>
+    <script>
+      function Form() {
+         var fname = document.forms["Register"]["FirstName"].value; // fname is assigned to FirstName value
+         var lname = document.forms["Register"]["LastName"].value; // lname is assigned to LastName value
+         var email = document.forms["Register"]["Email"].value; // email is assigned to Email value
+
+          if (fname == "" || lname == "" || email == "") {
+            // if fname or lname or email is empty
+              alert("Empty fields found. Please fill up the form."); // display this alert message
+          } else {
+             alert("Your response has been recorded."); // else display this message
+          }
+      }
+    </script>
+  </body>
+</html>
