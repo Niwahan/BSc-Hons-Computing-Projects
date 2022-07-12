@@ -1,0 +1,5 @@
+Harry Potter,JK Rowling,8,$2
+Cheque Book,Vasdev Mohi,15,$3
+Das Capital,Karl Marx,28,$5
+Divine Comedy,Dante    ,21,$6
+Faust   ,Goethe   ,17,$4
