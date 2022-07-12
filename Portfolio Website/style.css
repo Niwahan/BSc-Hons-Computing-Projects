@@ -1,0 +1,97 @@
+body {
+  /* Adding background image and adjusting its size and position */
+  background-image: url(BG/Bg1.jpg);
+  background-size: 100%, 100%;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  /* Adding background color and text alignment */
+  background-color: transparent;
+  text-align: center;
+}
+nav ul {
+  /* Adding list style type, display type and color */
+  list-style-type: none;
+  display: inline-flex;
+  color: #fff;
+}
+nav ul li {
+  /* Adjusting width, margin and padding */
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+nav ul li a {
+  /* Adding text decoration, font size, padding and color */
+  text-decoration: none;
+  font-size: 25px;
+  padding: 30px;
+  color: rgb(5, 73, 100);
+}
+
+.current {
+  /* Adding font weight */
+  font-weight: bold;
+}
+
+a:hover {
+  /* Adding color when hovered */
+  color: brown;
+}
+.flex {
+  /* Display type is added */
+  display: flex;
+}
+.left {
+  /* Flex is given */
+  flex: 65%;
+}
+.right {
+  /* Flex is given and left padding is added */
+  flex: 35%;
+  padding-left: 20px;
+}
+.card {
+  /* Background color is added and padding and top margin is adjusted */
+  background-color: transparent;
+  padding: 20px;
+  margin-top: 20px;
+}
+.CVleft {
+  /* Text color is changed */
+  color: white;
+}
+.Container {
+  /* Background color is added, width, margin, padding and text alignment are adjusted */
+  width: 40%;
+  background-color: transparent;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+.Slide {
+  /* Border is added, alignment, width, height and margin are adjusted */
+  border: solid black 10px;
+  align-items: center;
+  width: 700px;
+  height: 500px;
+  margin: auto;
+}
+.Research {
+  /* Width and height of image is adjusted */
+  width: 1000px;
+  height: 500px;
+}
+
+.font {
+  /* Font size is changed */
+  font-size: 23px;
+}
+.footer {
+  /* Padding, text alignment and top margin are changed */
+  padding: 20px;
+  text-align: center;
+
+  margin-top: 20px;
+}
