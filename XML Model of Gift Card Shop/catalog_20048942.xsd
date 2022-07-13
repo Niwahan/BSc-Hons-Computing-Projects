@@ -1,0 +1,82 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="NirayuCollection">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="GiftcardStore">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Header">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="StoreDetails">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="StoreName"/>
+                          <xs:element type="xs:string" name="Logo"/>
+                          <xs:element type="xs:string" name="StoreAddress"/>
+                          <xs:element type="xs:string" name="StoreContactNo"/>
+                          <xs:element type="xs:string" name="StoreWebsite"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:int" name="storeID" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="Description"/>
+              <xs:element type="xs:string" name="Title"/>
+              <xs:element name="GiftCards">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="GiftCard" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="GiftCardName"/>
+                          <xs:element name="Box">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Image">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="Photo">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute type="xs:byte" name="code" use="required"/>
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Text">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="Type"/>
+                                      <xs:element type="xs:string" name="Validity"/>
+                                      <xs:element type="xs:string" name="Price"/>
+                                      <xs:element type="xs:string" name="NoOfUsers"/>
+                                      <xs:element type="xs:string" name="DiscountVouchers"/>
+                                      <xs:element type="xs:string" name="Delivery"/>
+                                      <xs:element type="xs:string" name="Time"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="CardInfo"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

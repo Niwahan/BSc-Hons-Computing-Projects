@@ -1,0 +1,158 @@
+* {
+    background-color: #eae7dc;
+    margin:0;
+    padding:0;
+    color: #e85a4f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+NirayuCollection{
+    position: absolute;
+}
+
+StoreName{
+    color: #45a29e;
+    width: 100%;
+    height: 80px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #d8c3a5;
+    font-size: 40px;
+    font-weight: 600;
+    float: left;
+}
+
+Logo {
+    background: url(Photos/Nirayu.png) no-repeat top center;
+    background-size: 330px; height: 180px;
+    background-color: #d8c3a5;
+    padding-top: 20px;  
+}
+StoreAddress{
+    border-top: 2px solid black;
+}
+StoreAddress, StoreContactNo, StoreWebsite{
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    width: 100%; 
+    color: #8e8d8a;
+    background-color:#d8c3a5;
+    
+}
+StoreWebsite{
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+Description{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: medium;
+    border: 1px;
+}
+
+Title{
+    color: black;
+    font-weight: bolder;
+    font-size: 34px;
+    padding-top: 18px;
+    flex-direction: column;
+}
+Logo, StoreName, GiftCard, Description, TItle, GiftCardName {
+    display: block;     
+}
+
+
+GiftCard {
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 12px;
+    display: block;
+    height: 250px;
+}
+Box{
+    box-sizing: border-box;
+    width: 40%;
+}
+Image{
+    
+    float: left;
+    display: block;
+    width: 30%;
+}
+Text{
+    float: right;
+    width: 70%;
+}
+Type, Validity, Price, NoOfUsers, DiscountVouchers, Delivery, Time{
+    float: right;
+    width: 80%;
+    font-size: large;
+    text-align: justify;
+    display: list-item;
+    list-style-type: circle;
+}
+Type{
+    margin-top: 20px;
+    padding-top: 4px;
+}
+GiftCardName{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+CardInfo{
+    margin-top: 5px;
+    float: right;
+    padding-right: 10px;
+    width: 80%;
+    text-align: justify;
+    display: block;
+    padding-bottom: 10px;
+    font-size: medium;
+    color:grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+Photo{
+    display: block;
+    float: left;
+}
+
+Photo[code='1']{
+    flex: 50%;
+    background: url(Photos/Nike-logos.jpeg) no-repeat left;
+    background-size: 200px; height: 200px; width: 100%;
+}
+Photo[code='2']{
+    flex: 50%;
+    background: url(Photos/Steam-logos.jpeg) no-repeat left;
+    background-size: 200px; height: 200px; width: 100%;
+}
+Photo[code='3']{
+    flex: 50%;
+    background: url(Photos/Pizza\ Hut-logos.jpeg) no-repeat left;
+    background-size: 200px; height: 200px; width: 100%;
+}
+Photo[code='4']{
+    flex: 50%;
+    background: url(Photos/Mango\ Petroleum-logos.jpeg) no-repeat left;
+    background-size: 200px; height: 200px; width: 100%;
+}
+Photo[code='5']{
+    flex: 50%;
+    background: url(Photos/Playstaion-logos.jpeg) no-repeat left;
+    background-size: 200px; height: 200px; width: 100%;
+}
+Photo[code='6']{
+    flex: 50%;
+    background: url(Photos/Google-logos.jpeg) no-repeat left;
+    background-size: 200px; height: 200px; width: 100%;
+}
+Photo[code='7']{
+    flex: 50%;
+    background: url(Photos/Ikea-logos.jpeg) no-repeat left;
+    background-size: 200px; height: 200px; width: 100%;
+}

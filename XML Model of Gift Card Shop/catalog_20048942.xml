@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="catalog_20048942.css"?>
+
+<NirayuCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_20048942.xsd">
+    <GiftcardStore>
+        <Header>
+            <StoreDetails storeID="204172">
+                <StoreName>Nirayu Collection</StoreName>
+                <Logo/>
+                <StoreAddress>Address: London,United Kingdom</StoreAddress>
+                <StoreContactNo>Contact N0: +44 78664718002 </StoreContactNo>
+                <StoreWebsite>Website: www.nirayucollection.co.uk</StoreWebsite>
+            </StoreDetails>
+        </Header>
+        <Description>
+            <![CDATA[ 
+            Welcome to Nirayu Collection where you can find any items you want. You are currently in the gift card section. A gift card is a prepaid debit card that contains a specific amount of money available for use for a variety of purchases. 
+            Store gift cards are designed to be used at specific merchants or retailers, while general-use prepaid gift cards are not affiliated with any specific merchant and can also be used to withdraw cash at automated teller machines (ATMs).
+            Following are the gift cards available in our store. Please contact us by email or phone to purchase gift cards or know more about it.]]>
+        </Description>
+        <Title>
+            Gift Cards
+        </Title>
+        <GiftCards>
+            <GiftCard>
+                <GiftCardName>Nike Gift Card</GiftCardName>
+                <Box>
+                    <Image>
+                        <Photo code='1'/>
+                    </Image>
+                    <Text>
+                        <Type>Type : Physical</Type>
+                        <Validity>Valid Upto : 9th March 2024</Validity>
+                        <Price>Price : &#163;3500</Price>
+                        <NoOfUsers>Number of Users : 50</NoOfUsers>
+                        <DiscountVouchers>Discount : 20% Discount for members</DiscountVouchers>
+                        <Delivery>Delivery : Home delivery</Delivery>
+                        <Time>Estimated Time : 3 Working Days</Time>
+                    </Text>
+                </Box>
+                <CardInfo>
+                    <![CDATA[Gift your loved ones or your friends the Nike gift card on their birthday or some special occasion. The Nike gift can be used to buy any accessories of Nike within price of £2000. ]]>
+                </CardInfo>
+            </GiftCard>
+
+            <GiftCard>
+                <GiftCardName>Steam Gift Card</GiftCardName>
+                <Box>
+                    <Image>
+                        <Photo code='2'/>
+                    </Image>
+                    <Text>
+                        <Type>Type : Digital</Type>
+                        <Validity>Valid Upto : 1st September 2023</Validity>
+                        <Price>Price : &#163;100</Price>
+                        <NoOfUsers>Number of Users : 100</NoOfUsers>
+                        <DiscountVouchers>Discount : No discount available</DiscountVouchers>
+                        <Delivery>Delivery : Through E-Mail</Delivery>
+                        <Time>Estimated Time : 5 Minutes</Time>
+                    </Text>
+                </Box>
+                <CardInfo>
+                    <![CDATA[Gift your best friends the Steam gift card. The steam card can be redeemed at the steam store and the balance will be added to your account. You can use to buy new games or purchase DLCs.]]>
+                </CardInfo>
+            </GiftCard>
+
+            <GiftCard>
+                <GiftCardName>Pizza Hut Gift Card</GiftCardName>
+                <Box>
+                    <Image>
+                        <Photo code='3'/>
+                    </Image>
+                    <Text>
+                        <Type>Type : Physical</Type>
+                        <Validity>Valid Upto : 3rd August 2023</Validity>
+                        <Price>Price : &#163;500</Price>
+                        <NoOfUsers>Number of Users : 250</NoOfUsers>
+                        <DiscountVouchers>Discount : No discount available</DiscountVouchers>
+                        <Delivery>Delivery : Home delivery</Delivery>
+                        <Time>Estimated Time : 3 Working Days</Time>
+                    </Text>
+                </Box>
+                <CardInfo>
+                    <![CDATA[Gift your friends and family Pizza Hut Gift Card. The pizza hut gift card can be used to purchase any pizza within the price range of £500 on any pizza hut outlet in your city.]]>
+                </CardInfo>
+            </GiftCard>
+            <GiftCard>
+                <GiftCardName>Mango Petroleum Gift Card</GiftCardName>
+                <Box>
+                    <Image>
+                        <Photo code='4'/>
+                    </Image>
+                    <Text>
+                        <Type>Type : Physical</Type>
+                        <Validity>Valid Upto : 22nd June 2024</Validity>
+                        <Price>Price : &#163;2000</Price>
+                        <NoOfUsers>Number of Users : 20</NoOfUsers>
+                        <DiscountVouchers>Discount : Discount for purchase above £300</DiscountVouchers>
+                        <Delivery>Delivery : Home delivery</Delivery>
+                        <Time>Estimated Time : 3 Working Days</Time>
+                    </Text>
+                </Box>
+                <CardInfo>
+                    <![CDATA[Buy this gift card for your family and friends to buy petrol or diesel on your nearest local petroleum. Just give this gift card and get the petroleum of the specified gift card.]]>
+                </CardInfo>
+            </GiftCard>
+            <GiftCard>
+                <GiftCardName>Playstation Gift Card</GiftCardName>
+                <Box>
+                    <Image>
+                        <Photo code='5'/>
+                    </Image>
+                    <Text>
+                        <Type>Type : Digital</Type>
+                        <Validity>Valid Upto : 31st December 2022</Validity>
+                        <Price>Price : &#163;200</Price>
+                        <NoOfUsers>Number of Users : 800</NoOfUsers>
+                        <DiscountVouchers>Discount : 35% Discount for PS Plus Subscribers</DiscountVouchers>
+                        <Delivery>Delivery : Through E-Mail</Delivery>
+                        <Time>Estimated Time : 5 Minutes</Time>
+                    </Text>
+                </Box>
+                <CardInfo>
+                    <![CDATA[Gift your best friends the Steam gift card. The playstation gift card can be redeemed at the PS store and the balance will be added to your account. You can use to buy new games or purchase DLCs.]]>
+                </CardInfo>
+            </GiftCard>
+            <GiftCard>
+                <GiftCardName>Google Play Gift Card</GiftCardName>
+                <Box>
+                    <Image>
+                        <Photo code='6'/>
+                    </Image>
+                    <Text>
+                        <Type>Type : Digital</Type>
+                        <Validity>Valid Upto : 7th April 2023</Validity>
+                        <Price>Price : &#163;100</Price>
+                        <NoOfUsers>Number of Users : 4200</NoOfUsers>
+                        <DiscountVouchers>Discount : No discount available</DiscountVouchers>
+                        <Delivery>Delivery : Through E-Mail</Delivery>
+                        <Time>Estimated Time : 5 Minutes</Time>
+                    </Text>
+                </Box>
+                <CardInfo>
+                    <![CDATA[Gift your friends and family the Google Play Gift Card. You can purchase any app or games after redeeming it. You can also get in-app or in-game purchases through it.]]>
+                </CardInfo>
+            </GiftCard>
+            <GiftCard>
+                <GiftCardName>IKEA Gift Card</GiftCardName>
+                <Box>
+                    <Image>
+                        <Photo code='7'/>
+                    </Image>
+                    <Text>
+                        <Type>Type : Digital</Type>
+                        <Validity>Valid Upto : 1st February 2024</Validity>
+                        <Price>Price : &#163;10000</Price>
+                        <NoOfUsers>Number of Users : 40</NoOfUsers>
+                        <DiscountVouchers>Discount : No discount available</DiscountVouchers>
+                        <Delivery>Delivery : Through E-Mail</Delivery>
+                        <Time>Estimated Time : 5 Minutes</Time>
+                    </Text>
+                </Box>
+                <CardInfo>
+                    <![CDATA[Gift your family IKEA furniture on their special day. You can go to any of the IKEA stores and redeem the IKEA gift card to purchase.]]>
+                </CardInfo>
+            </GiftCard>
+        </GiftCards>
+    </GiftcardStore>
+</NirayuCollection>
