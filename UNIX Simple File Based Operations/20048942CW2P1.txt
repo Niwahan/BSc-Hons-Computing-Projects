@@ -1,0 +1,519 @@
+niwahang@ubuntu:~$ cat 20048942CW1P1 
+Script started on 2022-03-26 20:39:48-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+niwahang@ubuntu:~$ PS1='$PWD>'
+/home/niwahang>mkdir -p IPL/{"Mumbai Indians",KKR,Punjab,"Rajisthan Royals",RCB}
+/home/niwahang>tree IPL
+IPL
+├── KKR
+├── Mumbai Indians
+├── Punjab
+├── Rajisthan Royals
+└── RCB
+
+5 directories, 0 files
+/home/niwahang>cd IPL/KKR
+/home/niwahang/IPL/KKR>pwd
+/home/niwahang/IPL/KKR
+/home/niwahang/IPL/KKR>touch Niwa Angbu
+/home/niwahang/IPL/KKR>cd ..
+/home/niwahang/IPL>tree
+.
+├── KKR
+│   ├── Angbu
+│   └── Niwa
+├── Mumbai Indians
+├── Punjab
+├── Rajisthan Royals
+└── RCB
+
+5 directories, 2 files
+/home/niwahang/IPL>rm -i KKR/{Niwa,Angbu}
+rm: remove regular empty file 'KKR/Niwa'? Y
+rm: remove regular empty file 'KKR/Angbu'? Y
+/home/niwahang/IPL>tree
+.
+├── KKR
+├── Mumbai Indians
+├── Punjab
+├── Rajisthan Royals
+└── RCB
+
+5 directories, 0 files
+/home/niwahang/IPL>echo "Hello! I am big fan of IPL."
+Hello! I am big fan of IPL.
+/home/niwahang/IPL>echo "14<(2+2)"
+14<(2+2)
+/home/niwahang/IPL>pwd
+/home/niwahang/IPL
+/home/niwahang/IPL>cd KKR
+/home/niwahang/IPL/KKR>pwd;cd;pwd
+/home/niwahang/IPL/KKR
+/home/niwahang
+/home/niwahang>cd IPL/KKR
+/home/niwahang/IPL/KKR>pwd; cd ..; pwd; cd ..; pwd
+/home/niwahang/IPL/KKR
+/home/niwahang/IPL
+/home/niwahang
+/home/niwahang>cd IPL
+/home/niwahang/IPL>cd; pwd
+/home/niwahang
+/home/niwahang>ls
+20048942CW1P1  Documents  IPL    Pictures  Templates
+Desktop        Downloads  Music  Public    Videos
+/home/niwahang>ls -a
+.              .bashrc       Documents  Music                      Templates
+..             .bashrc.save  Downloads  Pictures                   Videos
+20048942CW1P1  .cache        .gnupg     .profile
+.bash_history  .config       IPL        Public
+.bash_logout   Desktop       .local     .sudo_as_admin_successful
+/home/niwahang>ls -al
+total 84
+drwxr-xr-x 15 niwahang niwahang 4096 Mar 26 20:40 .
+drwxr-xr-x  3 root     root     4096 Mar 19 00:22 ..
+-rw-rw-r--  1 niwahang niwahang    0 Mar 26 20:39 20048942CW1P1
+-rw-------  1 niwahang niwahang 4471 Mar 26 20:39 .bash_history
+-rw-r--r--  1 niwahang niwahang  220 Mar 19 00:22 .bash_logout
+-rw-r--r--  1 niwahang niwahang 3771 Mar 26 20:13 .bashrc
+-rw-r--r--  1 niwahang niwahang 3772 Mar 26 20:31 .bashrc.save
+drwx------ 12 niwahang niwahang 4096 Mar 19 03:53 .cache
+drwx------ 14 niwahang niwahang 4096 Mar 22 06:23 .config
+drwxr-xr-x  2 niwahang niwahang 4096 Mar 26 20:13 Desktop
+drwxr-xr-x  2 niwahang niwahang 4096 Mar 19 00:43 Documents
+drwxr-xr-x  2 niwahang niwahang 4096 Mar 19 00:43 Downloads
+drwx------  3 niwahang niwahang 4096 Mar 19 00:43 .gnupg
+drwxrwxr-x  7 niwahang niwahang 4096 Mar 26 20:40 IPL
+drwxr-xr-x  3 niwahang niwahang 4096 Mar 19 00:43 .local
+drwxr-xr-x  2 niwahang niwahang 4096 Mar 19 00:43 Music
+drwxr-xr-x  2 niwahang niwahang 4096 Mar 19 00:43 Pictures
+-rw-r--r--  1 niwahang niwahang  807 Mar 19 00:22 .profile
+drwxr-xr-x  2 niwahang niwahang 4096 Mar 19 00:43 Public
+-rw-r--r--  1 niwahang niwahang    0 Mar 22 04:52 .sudo_as_admin_successful
+drwxr-xr-x  2 niwahang niwahang 4096 Mar 19 00:43 Templates
+drwxr-xr-x  2 niwahang niwahang 4096 Mar 19 00:43 Videos
+/home/niwahang>cd; pwd; cd cw2; pwd
+/home/niwahang
+bash: cd: cw2: No such file or directory
+/home/niwahang
+/home/niwahang>ls -R
+.:
+20048942CW1P1  Documents  IPL    Pictures  Templates
+Desktop        Downloads  Music  Public    Videos
+
+./Desktop:
+
+./Documents:
+
+./Downloads:
+
+./IPL:
+ KKR  'Mumbai Indians'   Punjab  'Rajisthan Royals'   RCB
+
+./IPL/KKR:
+
+'./IPL/Mumbai Indians':
+
+./IPL/Punjab:
+
+'./IPL/Rajisthan Royals':
+
+./IPL/RCB:
+
+./Music:
+
+./Pictures:
+
+./Public:
+
+./Templates:
+
+./Videos:
+/home/niwahang>cd IPL/RCB
+/home/niwahang/IPL/RCB>cat > testX
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cat > testY
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cat > testZ
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cat testX
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cat testY
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cat testZ
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cp {testX,testY,testZ} ../"Rajisthan Royals"
+/home/niwahang/IPL/RCB>cd ..
+/home/niwahang/IPL>tree
+.
+├── KKR
+├── Mumbai Indians
+├── Punjab
+├── Rajisthan Royals
+│   ├── testX
+│   ├── testY
+│   └── testZ
+└── RCB
+    ├── testX
+    ├── testY
+    └── testZ
+
+5 directories, 6 files
+/home/niwahang/IPL>cd RCB
+/home/niwahang/IPL/RCB>cat testX testY testZ
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cat testX testY testZ>testResult
+/home/niwahang/IPL/RCB>cat testResult
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cat test[XYZ]
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>ls -l
+total 16
+-rw-rw-r-- 1 niwahang niwahang 234 Mar 26 20:44 testResult
+-rw-rw-r-- 1 niwahang niwahang  78 Mar 26 20:43 testX
+-rw-rw-r-- 1 niwahang niwahang  78 Mar 26 20:43 testY
+-rw-rw-r-- 1 niwahang niwahang  78 Mar 26 20:43 testZ
+/home/niwahang/IPL/RCB>chmod 000 testX
+/home/niwahang/IPL/RCB>ls -l testX
+---------- 1 niwahang niwahang 78 Mar 26 20:43 testX
+/home/niwahang/IPL/RCB>cat testX
+cat: testX: Permission denied
+/home/niwahang/IPL/RCB>cat > testX
+bash: testX: Permission denied
+/home/niwahang/IPL/RCB>chmod 600 testX
+/home/niwahang/IPL/RCB>ls -l testX
+-rw------- 1 niwahang niwahang 78 Mar 26 20:43 testX
+/home/niwahang/IPL/RCB>cat testX
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cat > testX
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cd ..
+/home/niwahang/IPL>ls -l
+total 20
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40  KKR
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40 'Mumbai Indians'
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40  Punjab
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:44 'Rajisthan Royals'
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:44  RCB
+/home/niwahang/IPL>chmod 000 RCB
+/home/niwahang/IPL>ls -l
+total 20
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40  KKR
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40 'Mumbai Indians'
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40  Punjab
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:44 'Rajisthan Royals'
+d--------- 2 niwahang niwahang 4096 Mar 26 20:44  RCB
+/home/niwahang/IPL>cat RCB/testX
+cat: RCB/testX: Permission denied
+/home/niwahang/IPL>touch RCB/Niwa
+touch: cannot touch 'RCB/Niwa': Permission denied
+/home/niwahang/IPL>ls -l RCB
+ls: cannot open directory 'RCB': Permission denied
+/home/niwahang/IPL>chmod 700 RCB
+/home/niwahang/IPL>ls -l
+total 20
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40  KKR
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40 'Mumbai Indians'
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40  Punjab
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:44 'Rajisthan Royals'
+drwx------ 2 niwahang niwahang 4096 Mar 26 20:44  RCB
+/home/niwahang/IPL>cat RCB/testX
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL>touch RCB/Niwa
+/home/niwahang/IPL>ls -l RCB
+total 16
+-rw-rw-r-- 1 niwahang niwahang   0 Mar 26 20:47 Niwa
+-rw-rw-r-- 1 niwahang niwahang 234 Mar 26 20:44 testResult
+-rw------- 1 niwahang niwahang  78 Mar 26 20:46 testX
+-rw-rw-r-- 1 niwahang niwahang  78 Mar 26 20:43 testY
+-rw-rw-r-- 1 niwahang niwahang  78 Mar 26 20:43 testZ
+/home/niwahang/IPL>cd 'Rajisthan Royals'
+/home/niwahang/IPL/Rajisthan Royals>grep bb testX
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+/home/niwahang/IPL/Rajisthan Royals>grep -v bb testX
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/Rajisthan Royals>grep -n bb testX
+1:aaabb Aaaaa AAAAA      
+2:bbbcc Bbbbb BBBBB
+/home/niwahang/IPL/Rajisthan Royals>grep -l bb *
+testX
+testY
+testZ
+/home/niwahang/IPL/Rajisthan Royals>grep -i bb *
+testX:aaabb Aaaaa AAAAA      
+testX:bbbcc Bbbbb BBBBB
+testY:aaabb Aaaaa AAAAA      
+testY:bbbcc Bbbbb BBBBB
+testZ:aaabb Aaaaa AAAAA      
+testZ:bbbcc Bbbbb BBBBB
+/home/niwahang/IPL/Rajisthan Royals>grep -i BB *
+testX:aaabb Aaaaa AAAAA      
+testX:bbbcc Bbbbb BBBBB
+testY:aaabb Aaaaa AAAAA      
+testY:bbbcc Bbbbb BBBBB
+testZ:aaabb Aaaaa AAAAA      
+testZ:bbbcc Bbbbb BBBBB
+/home/niwahang/IPL/Rajisthan Royals>grep -c bb *
+testX:2
+testY:2
+testZ:2
+/home/niwahang/IPL/Rajisthan Royals>grep '^A' *
+/home/niwahang/IPL/Rajisthan Royals>grep -n '^' testX
+1:aaabb Aaaaa AAAAA      
+2:bbbcc Bbbbb BBBBB
+3:ff-ff Ccccc CCCCC
+4:cccdd Ddddd DDDDD
+/home/niwahang/IPL/Rajisthan Royals>cd;
+/home/niwahang>alias lsl='ls -l'
+/home/niwahang>alais lsR='ls -R'
+alais: command not found
+/home/niwahang>alias lsR='ls -R'
+/home/niwahang>lsl
+total 48
+-rw-rw-r-- 1 niwahang niwahang 12288 Mar 26 20:48 20048942CW1P1
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 26 20:13 Desktop
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 Documents
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 Downloads
+drwxrwxr-x 7 niwahang niwahang  4096 Mar 26 20:40 IPL
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 Music
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 Pictures
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 Public
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 Templates
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 Videos
+/home/niwahang>lsR
+.:
+20048942CW1P1  Documents  IPL    Pictures  Templates
+Desktop        Downloads  Music  Public    Videos
+
+./Desktop:
+
+./Documents:
+
+./Downloads:
+
+./IPL:
+ KKR  'Mumbai Indians'   Punjab  'Rajisthan Royals'   RCB
+
+./IPL/KKR:
+
+'./IPL/Mumbai Indians':
+
+./IPL/Punjab:
+
+'./IPL/Rajisthan Royals':
+testX  testY  testZ
+
+./IPL/RCB:
+Niwa  testResult  testX  testY  testZ
+
+./Music:
+
+./Pictures:
+
+./Public:
+
+./Templates:
+
+./Videos:
+/home/niwahang>alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+alias lsR='ls -R'
+alias lsl='ls -l'
+/home/niwahang>unalias lsl
+/home/niwahang>unalias lsR
+/home/niwahang>alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+/home/niwahang>nano .bashrc
+/home/niwahang>source .bashrc
+niwahang@ubuntu:~$ exit
+exit
+
+Script done on 2022-03-26 20:55:58-07:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-03-26 21:15:26-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+niwahang@ubuntu:~$ PS1='$PWD>'
+/home/niwahang>lsl
+total 68
+-rw-rw-r-- 1 niwahang niwahang 31291 Mar 26 20:55 20048942CW1P1
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 26 20:13 Desktop
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 Documents
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 Downloads
+drwxrwxr-x 7 niwahang niwahang  4096 Mar 26 20:40 IPL
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 Music
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 Pictures
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 Public
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 Templates
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 Videos
+/home/niwahang>lsR
+.:
+20048942CW1P1  Documents  IPL    Pictures  Templates
+Desktop        Downloads  Music  Public    Videos
+
+./Desktop:
+
+./Documents:
+
+./Downloads:
+
+./IPL:
+ KKR  'Mumbai Indians'   Punjab  'Rajisthan Royals'   RCB
+
+./IPL/KKR:
+
+'./IPL/Mumbai Indians':
+
+./IPL/Punjab:
+
+'./IPL/Rajisthan Royals':
+testX  testY  testZ
+
+./IPL/RCB:
+Niwa  testResult  testX  testY  testZ
+
+./Music:
+
+./Pictures:
+
+./Public:
+
+./Templates:
+
+./Videos:
+/home/niwahang>noAllf
+23
+/home/niwahang>noAsubsir
+616
+/home/niwahang>noAcs
+15
+/home/niwahang>history 7
+  452  PS1='$PWD>'
+  453  lsl
+  454  lsR
+  455  noAllf
+  456  noAsubsir
+  457  noAcs
+  458  history 7
+/home/niwahang>!=6
+!=6: command not found
+/home/niwahang>!-6
+lsR
+.:
+20048942CW1P1  Documents  IPL    Pictures  Templates
+Desktop        Downloads  Music  Public    Videos
+
+./Desktop:
+
+./Documents:
+
+./Downloads:
+
+./IPL:
+ KKR  'Mumbai Indians'   Punjab  'Rajisthan Royals'   RCB
+
+./IPL/KKR:
+
+'./IPL/Mumbai Indians':
+
+./IPL/Punjab:
+
+'./IPL/Rajisthan Royals':
+testX  testY  testZ
+
+./IPL/RCB:
+Niwa  testResult  testX  testY  testZ
+
+./Music:
+
+./Pictures:
+
+./Public:
+
+./Templates:
+
+./Videos:
+/home/niwahang>fc -e- i
+intall --help
+
+Command 'intall' not found, did you mean:
+
+  command 'install' from deb coreutils (8.30-3ubuntu2)
+
+Try: sudo apt install <deb name>
+
+/home/niwahang>exit
+exit
+
+Script done on 2022-03-26 21:17:11-07:00 [COMMAND_EXIT_CODE="127"]

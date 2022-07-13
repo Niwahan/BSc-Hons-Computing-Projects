@@ -1,0 +1,601 @@
+Script started on 2022-03-26 20:39:48-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;niwahang@ubuntu: ~[01;32mniwahang@ubuntu[00m:[01;34m~[00m$ PS1='$PWD>'
+/home/niwahang>mkdir -p IPL/{"Mumbai Indians",KKR,Punjab,"Rajisthan Royals",RCB} [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K}
+/home/niwahang>tree IPL
+[01;34mIPL[00m
+├── [01;34mKKR[00m
+├── [01;34mMumbai Indians[00m
+├── [01;34mPunjab[00m
+├── [01;34mRajisthan Royals[00m
+└── [01;34mRCB[00m
+
+5 directories, 0 files
+/home/niwahang>cd IPL/LLR[K[K[K[KK[K/KKR
+/home/niwahang/IPL/KKR>pwd
+/home/niwahang/IPL/KKR
+/home/niwahang/IPL/KKR>touc =[K[Kh Niwa Angbu
+/home/niwahang/IPL/KKR>cd ..
+/home/niwahang/IPL>tree
+[01;34m.[00m
+├── [01;34mKKR[00m
+│   ├── Angbu
+│   └── Niwa
+├── [01;34mMumbai Indians[00m
+├── [01;34mPunjab[00m
+├── [01;34mRajisthan Royals[00m
+└── [01;34mRCB[00m
+
+5 directories, 2 files
+/home/niwahang/IPL>rm -i KKR/{Niwa,Angbu}
+rm: remove regular empty file 'KKR/Niwa'? Y
+rm: remove regular empty file 'KKR/Angbu'? Y
+/home/niwahang/IPL>tree
+[01;34m.[00m
+├── [01;34mKKR[00m
+├── [01;34mMumbai Indians[00m
+├── [01;34mPunjab[00m
+├── [01;34mRajisthan Royals[00m
+└── [01;34mRCB[00m
+
+5 directories, 0 files
+/home/niwahang/IPL>echo "Hello! I am big fan of IPL."
+Hello! I am big fan of IPL.
+/home/niwahang/IPL>echo "14<(2+2)"
+14<(2+2)
+/home/niwahang/IPL>pwd
+/home/niwahang/IPL
+/home/niwahang/IPL>cd KKR
+/home/niwahang/IPL/KKR>pwd;cd;pwd
+/home/niwahang/IPL/KKR
+/home/niwahang
+/home/niwahang>cd IPL/KKR
+/home/niwahang/IPL/KKR>pwd; cd ..; pwd; cd ..; pwd
+/home/niwahang/IPL/KKR
+/home/niwahang/IPL
+/home/niwahang
+/home/niwahang>cd IPL
+/home/niwahang/IPL>cd; pwd
+/home/niwahang
+/home/niwahang>ls
+20048942CW1P1  [0m[01;34mDocuments[0m  [01;34mIPL[0m    [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDesktop[0m        [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPublic[0m    [01;34mVideos[0m
+/home/niwahang>ls -l[Ka
+[0m[01;34m.[0m              .bashrc       [01;34mDocuments[0m  [01;34mMusic[0m                      [01;34mTemplates[0m
+[01;34m..[0m             .bashrc.save  [01;34mDownloads[0m  [01;34mPictures[0m                   [01;34mVideos[0m
+20048942CW1P1  [01;34m.cache[0m        [01;34m.gnupg[0m     .profile
+.bash_history  [01;34m.config[0m       [01;34mIPL[0m        [01;34mPublic[0m
+.bash_logout   [01;34mDesktop[0m       [01;34m.local[0m     .sudo_as_admin_successful
+/home/niwahang>ls -al
+total 84
+drwxr-xr-x 15 niwahang niwahang 4096 Mar 26 20:40 [0m[01;34m.[0m
+drwxr-xr-x  3 root     root     4096 Mar 19 00:22 [01;34m..[0m
+-rw-rw-r--  1 niwahang niwahang    0 Mar 26 20:39 20048942CW1P1
+-rw-------  1 niwahang niwahang 4471 Mar 26 20:39 .bash_history
+-rw-r--r--  1 niwahang niwahang  220 Mar 19 00:22 .bash_logout
+-rw-r--r--  1 niwahang niwahang 3771 Mar 26 20:13 .bashrc
+-rw-r--r--  1 niwahang niwahang 3772 Mar 26 20:31 .bashrc.save
+drwx------ 12 niwahang niwahang 4096 Mar 19 03:53 [01;34m.cache[0m
+drwx------ 14 niwahang niwahang 4096 Mar 22 06:23 [01;34m.config[0m
+drwxr-xr-x  2 niwahang niwahang 4096 Mar 26 20:13 [01;34mDesktop[0m
+drwxr-xr-x  2 niwahang niwahang 4096 Mar 19 00:43 [01;34mDocuments[0m
+drwxr-xr-x  2 niwahang niwahang 4096 Mar 19 00:43 [01;34mDownloads[0m
+drwx------  3 niwahang niwahang 4096 Mar 19 00:43 [01;34m.gnupg[0m
+drwxrwxr-x  7 niwahang niwahang 4096 Mar 26 20:40 [01;34mIPL[0m
+drwxr-xr-x  3 niwahang niwahang 4096 Mar 19 00:43 [01;34m.local[0m
+drwxr-xr-x  2 niwahang niwahang 4096 Mar 19 00:43 [01;34mMusic[0m
+drwxr-xr-x  2 niwahang niwahang 4096 Mar 19 00:43 [01;34mPictures[0m
+-rw-r--r--  1 niwahang niwahang  807 Mar 19 00:22 .profile
+drwxr-xr-x  2 niwahang niwahang 4096 Mar 19 00:43 [01;34mPublic[0m
+-rw-r--r--  1 niwahang niwahang    0 Mar 22 04:52 .sudo_as_admin_successful
+drwxr-xr-x  2 niwahang niwahang 4096 Mar 19 00:43 [01;34mTemplates[0m
+drwxr-xr-x  2 niwahang niwahang 4096 Mar 19 00:43 [01;34mVideos[0m
+/home/niwahang>cd; pwd; cd cw2; pwd
+/home/niwahang
+bash: cd: cw2: No such file or directory
+/home/niwahang
+/home/niwahang>ls -R
+.:
+20048942CW1P1  [0m[01;34mDocuments[0m  [01;34mIPL[0m    [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDesktop[0m        [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPublic[0m    [01;34mVideos[0m
+
+./Desktop:
+
+./Documents:
+
+./Downloads:
+
+./IPL:
+ [01;34mKKR[0m  [01;34m'Mumbai Indians'[0m   [01;34mPunjab[0m  [01;34m'Rajisthan Royals'[0m   [01;34mRCB[0m
+
+./IPL/KKR:
+
+'./IPL/Mumbai Indians':
+
+./IPL/Punjab:
+
+'./IPL/Rajisthan Royals':
+
+./IPL/RCB:
+
+./Music:
+
+./Pictures:
+
+./Public:
+
+./Templates:
+
+./Videos:
+/home/niwahang>cd IPL/E[KRCB
+/home/niwahang/IPL/RCB>cat test[K[K[K[K. tes[K[K[K[K[K> testX
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cat > testX[KY
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cat > testY[KZ
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cat testX
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cat testX[KY
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cat testY[KZ
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cp {testX,testY,testZ{[K} ../'[K"Rajisthan Royals"
+/home/niwahang/IPL/RCB>cd ..
+/home/niwahang/IPL>tree
+[01;34m.[00m
+├── [01;34mKKR[00m
+├── [01;34mMumbai Indians[00m
+├── [01;34mPunjab[00m
+├── [01;34mRajisthan Royals[00m
+│   ├── testX
+│   ├── testY
+│   └── testZ
+└── [01;34mRCB[00m
+    ├── testX
+    ├── testY
+    └── testZ
+
+5 directories, 6 files
+/home/niwahang/IPL>cd RCB
+/home/niwahang/IPL/RCB>cat testX testY testZ
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cat testX testY testZ>testResult
+/home/niwahang/IPL/RCB>cat testReu[Ksult
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cat test{[K[XYZ]
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>ls -l
+total 16
+-rw-rw-r-- 1 niwahang niwahang 234 Mar 26 20:44 testResult
+-rw-rw-r-- 1 niwahang niwahang  78 Mar 26 20:43 testX
+-rw-rw-r-- 1 niwahang niwahang  78 Mar 26 20:43 testY
+-rw-rw-r-- 1 niwahang niwahang  78 Mar 26 20:43 testZ
+/home/niwahang/IPL/RCB>chmod 000 tets[K[KstX
+/home/niwahang/IPL/RCB>ls -l testX
+---------- 1 niwahang niwahang 78 Mar 26 20:43 testX
+/home/niwahang/IPL/RCB>cat testX
+cat: testX: Permission denied
+/home/niwahang/IPL/RCB>cat > testX
+bash: testX: Permission denied
+/home/niwahang/IPL/RCB>cho[Kmdo[K[Kod 600 testX
+/home/niwahang/IPL/RCB>ls -l testX
+-rw------- 1 niwahang niwahang 78 Mar 26 20:43 testX
+/home/niwahang/IPL/RCB>cat testX
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cat > testX
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/RCB>cd ..
+/home/niwahang/IPL>ls -l
+total 20
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40  [0m[01;34mKKR[0m
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40 [01;34m'Mumbai Indians'[0m
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40  [01;34mPunjab[0m
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:44 [01;34m'Rajisthan Royals'[0m
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:44  [01;34mRCB[0m
+/home/niwahang/IPL>cho[Kmod 000 RCB
+/home/niwahang/IPL>ls -l
+total 20
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40  [0m[01;34mKKR[0m
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40 [01;34m'Mumbai Indians'[0m
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40  [01;34mPunjab[0m
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:44 [01;34m'Rajisthan Royals'[0m
+d--------- 2 niwahang niwahang 4096 Mar 26 20:44  [01;34mRCB[0m
+/home/niwahang/IPL>cat RCB/testX
+cat: RCB/testX: Permission denied
+/home/niwahang/IPL>touch RCB/Niwa
+touch: cannot touch 'RCB/Niwa': Permission denied
+/home/niwahang/IPL>ls -l RCB
+ls: cannot open directory 'RCB': Permission denied
+/home/niwahang/IPL>chmod 700 RCB
+/home/niwahang/IPL>ls -l
+total 20
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40  [0m[01;34mKKR[0m
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40 [01;34m'Mumbai Indians'[0m
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:40  [01;34mPunjab[0m
+drwxrwxr-x 2 niwahang niwahang 4096 Mar 26 20:44 [01;34m'Rajisthan Royals'[0m
+drwx------ 2 niwahang niwahang 4096 Mar 26 20:44  [01;34mRCB[0m
+/home/niwahang/IPL>cat RCB/testX
+aaabb Aaaaa AAAAA      
+bbbcc Bbbbb BBBBB
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL>touch RCB/Niwa
+/home/niwahang/IPL>ls -l RCB
+total 16
+-rw-rw-r-- 1 niwahang niwahang   0 Mar 26 20:47 Niwa
+-rw-rw-r-- 1 niwahang niwahang 234 Mar 26 20:44 testResult
+-rw------- 1 niwahang niwahang  78 Mar 26 20:46 testX
+-rw-rw-r-- 1 niwahang niwahang  78 Mar 26 20:43 testY
+-rw-rw-r-- 1 niwahang niwahang  78 Mar 26 20:43 testZ
+/home/niwahang/IPL>cd 'Rajisthan Royals'
+/home/niwahang/IPL/Rajisthan Royals>grep bb testX
+aaa[01;31m[Kbb[m[K Aaaaa AAAAA      
+[01;31m[Kbb[m[Kbcc B[01;31m[Kbb[m[K[01;31m[Kbb[m[K BBBBB
+/home/niwahang/IPL/Rajisthan Royals>grep -v bb testX
+ff-ff Ccccc CCCCC
+cccdd Ddddd DDDDD
+/home/niwahang/IPL/Rajisthan Royals>grep -n bb testX
+[32m[K1[m[K[36m[K:[m[Kaaa[01;31m[Kbb[m[K Aaaaa AAAAA      
+[32m[K2[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbcc B[01;31m[Kbb[m[K[01;31m[Kbb[m[K BBBBB
+/home/niwahang/IPL/Rajisthan Royals>grep -l bb *
+[35m[KtestX[m[K
+[35m[KtestY[m[K
+[35m[KtestZ[m[K
+/home/niwahang/IPL/Rajisthan Royals>grep -i bb *
+[35m[KtestX[m[K[36m[K:[m[Kaaa[01;31m[Kbb[m[K Aaaaa AAAAA      
+[35m[KtestX[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbcc [01;31m[KBb[m[K[01;31m[Kbb[m[Kb [01;31m[KBB[m[K[01;31m[KBB[m[KB
+[35m[KtestY[m[K[36m[K:[m[Kaaa[01;31m[Kbb[m[K Aaaaa AAAAA      
+[35m[KtestY[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbcc [01;31m[KBb[m[K[01;31m[Kbb[m[Kb [01;31m[KBB[m[K[01;31m[KBB[m[KB
+[35m[KtestZ[m[K[36m[K:[m[Kaaa[01;31m[Kbb[m[K Aaaaa AAAAA      
+[35m[KtestZ[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbcc [01;31m[KBb[m[K[01;31m[Kbb[m[Kb [01;31m[KBB[m[K[01;31m[KBB[m[KB
+/home/niwahang/IPL/Rajisthan Royals>grep -i BB *
+[35m[KtestX[m[K[36m[K:[m[Kaaa[01;31m[Kbb[m[K Aaaaa AAAAA      
+[35m[KtestX[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbcc [01;31m[KBb[m[K[01;31m[Kbb[m[Kb [01;31m[KBB[m[K[01;31m[KBB[m[KB
+[35m[KtestY[m[K[36m[K:[m[Kaaa[01;31m[Kbb[m[K Aaaaa AAAAA      
+[35m[KtestY[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbcc [01;31m[KBb[m[K[01;31m[Kbb[m[Kb [01;31m[KBB[m[K[01;31m[KBB[m[KB
+[35m[KtestZ[m[K[36m[K:[m[Kaaa[01;31m[Kbb[m[K Aaaaa AAAAA      
+[35m[KtestZ[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbcc [01;31m[KBb[m[K[01;31m[Kbb[m[Kb [01;31m[KBB[m[K[01;31m[KBB[m[KB
+/home/niwahang/IPL/Rajisthan Royals>grep -c bb *
+[35m[KtestX[m[K[36m[K:[m[K2
+[35m[KtestY[m[K[36m[K:[m[K2
+[35m[KtestZ[m[K[36m[K:[m[K2
+/home/niwahang/IPL/Rajisthan Royals>grep '^A' *
+/home/niwahang/IPL/Rajisthan Royals>grep -n '^' testX
+[32m[K1[m[K[36m[K:[m[Kaaabb Aaaaa AAAAA      
+[32m[K2[m[K[36m[K:[m[Kbbbcc Bbbbb BBBBB
+[32m[K3[m[K[36m[K:[m[Kff-ff Ccccc CCCCC
+[32m[K4[m[K[36m[K:[m[Kcccdd Ddddd DDDDD
+/home/niwahang/IPL/Rajisthan Royals>cd [K;
+/home/niwahang>alias lsl='ls -l'
+/home/niwahang>alais lsR='ls -R'
+alais: command not found
+/home/niwahang>alais lsR='ls -R'[1P[C[1@a
+/home/niwahang>lsl
+total 48
+-rw-rw-r-- 1 niwahang niwahang 12288 Mar 26 20:48 20048942CW1P1
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 26 20:13 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 [01;34mDocuments[0m
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 [01;34mDownloads[0m
+drwxrwxr-x 7 niwahang niwahang  4096 Mar 26 20:40 [01;34mIPL[0m
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 [01;34mMusic[0m
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 [01;34mPictures[0m
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 [01;34mPublic[0m
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 [01;34mTemplates[0m
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 [01;34mVideos[0m
+/home/niwahang>lsR
+.:
+20048942CW1P1  [0m[01;34mDocuments[0m  [01;34mIPL[0m    [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDesktop[0m        [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPublic[0m    [01;34mVideos[0m
+
+./Desktop:
+
+./Documents:
+
+./Downloads:
+
+./IPL:
+ [01;34mKKR[0m  [01;34m'Mumbai Indians'[0m   [01;34mPunjab[0m  [01;34m'Rajisthan Royals'[0m   [01;34mRCB[0m
+
+./IPL/KKR:
+
+'./IPL/Mumbai Indians':
+
+./IPL/Punjab:
+
+'./IPL/Rajisthan Royals':
+testX  testY  testZ
+
+./IPL/RCB:
+Niwa  testResult  testX  testY  testZ
+
+./Music:
+
+./Pictures:
+
+./Public:
+
+./Templates:
+
+./Videos:
+/home/niwahang>alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+alias lsR='ls -R'
+alias lsl='ls -l'
+/home/niwahang>unalias lsl
+/home/niwahang>unalias lsl[KR
+/home/niwahang>alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+/home/niwahang>nano .bashrc
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 117 lines ](B[m[H(B[0;7m  GNU nano 4.8                        .bashrc                                   [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m[36m# ~/.bashrc: executed by bash(1) for non-login shells.[3d# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)[4d# for examples[6d# If not running interactively, don't do anything[7d[32mcase[39m(B[m (B[0;1m[31m$-[39m(B[m [32min[8;5H[39m(B[m*i*[32m)[39m(B[m [32m;;[9;7H[39m(B[m*[32m)[39m(B[m [32mreturn;;[10desac[12d[36m# don't put duplicate lines or lines starting with space in the history.[13d# See bash(1) for more options[14d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth[16d[36m# append to the history file, don't overwrite it[17d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[19d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[20d[39m(B[mHISTSIZE[32m=[39m(B[m1000[21dHISTFILESIZE[32m=[39m(B[m2000[2d[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[36m# check the window size after each command and, if necessary,[39m(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[36m# update the values of LINES and COLUMNS.[39m(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1Hshopt(B[0;1m[35m -s[39m(B[m checkwinsize[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[36m# If set, the pattern (B[0;1m[33m"**"(B[0m[36m used in a pathname expansion context will[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# match all files and zero or more directories and subdirectories.[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m#shopt -s globstar[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# make less more friendly for non-text input files, see lesspipe(1)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32m[(B[0;1m[35m -x[39m(B[m /usr/bin/lesspipe [32m][39m(B[m [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(SHELL=/bin/sh lesspipe)"[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# set variable identifying the chroot you work in (used in the prompt below)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32mif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"${debian_chroot:-}"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32m[(B[0;1m[35m -r[39m(B[m /etc/debian_chroot [32m];[39m(B[m [32mthen[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;5Hdebian_chroot[32m=$((B[0;1m[34mcat[39m(B[m /etc/debian_chroot[32m)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32mfi[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# set a fancy prompt (non-color, unless we know we (B[0;1m[33m"want"(B[0m[36m color)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;5Hxterm-color[32m|[39m(B[m*-256color[32m)[39m(B[m color_prompt[32m=[39m(B[myes[32m;;[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32mesac[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# uncomment for a colored prompt, if the terminal has the capability; turned[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# off by default to not distract the user: the focus in a terminal window[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# should be on the output of commands, not on the prompt[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m#force_color_prompt=yes[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32mif[39m(B[m [32m[(B[0;1m[35m -n[39m(B[m (B[0;1m[33m"$force_color_prompt"[39m(B[m [32m];[39m(B[m [32mthen[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;5H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/tput [32m][39m(B[m [32m&&[39m(B[m tput setaf 1 [32m>&[39m(B[m/dev/null[32m;[39m(B[m [32mthen[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;8H[36m[1K # We have color support; assume it's compliant with Ecma-48[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;8H[36m[1K # (ISO/IEC-6429). (Lack of such support is extremely rare, and such[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;8H[36m[1K # a case would tend to support setf rather than setaf.)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;9Hcolor_prompt[32m=[39m(B[myes[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;5H[32melse[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;9Hcolor_prompt[32m=[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;5H[32mfi[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32mfi[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$color_prompt"[39m(B[m [32m=[39m(B[m yes [32m];[39m(B[m [32mthen[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;5HPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32melse[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;5HPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32mfi[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[34munset[39m(B[m color_prompt force_color_prompt[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# If this is an xterm set the title to user@host:dir[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1Hxterm*[32m|[39m(B[mrxvt*[32m)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;5HPS1[32m=(B[0;1m[33m"\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;5H[32m;;[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H*[32m)[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;5H[32m;;[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32mesac[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# enable color support of ls and also add handy aliases[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/dircolors [32m];[39m(B[m [32mthen[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;5Htest(B[0;1m[35m -r[39m(B[m ~/.dircolors [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dircolors -b ~/.dircolors)"[39m(B[m [32m||[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dirc[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;5Halias ls[32m=(B[0;1m[33m'ls --color=auto'[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;4H[36m #alias dir=(B[0;1m[33m'dir --color=auto'[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;4H[36m #alias vdir=(B[0;1m[33m'vdir --color=auto'[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;5Halias (B[0;1m[34mgrep(B[0m[32m=(B[0;1m[33m'grep --color=auto'[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;5Halias fgrep[32m=(B[0;1m[33m'fgrep --color=auto'[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;5Halias egrep[32m=(B[0;1m[33m'egrep --color=auto'[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[32mfi[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# colored GCC warnings and errors[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m#export GCC_COLORS=(B[0;1m[33m'error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:q[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# some more ls aliases[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1Halias ll[32m=(B[0;1m[33m'ls -alF'[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1Halias la[32m=(B[0;1m[33m'ls -A'[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1Halias l[32m=(B[0;1m[33m'ls -CF'[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# Add an (B[0;1m[33m"alert"(B[0m[36m alias for long running commands.  Use like so:[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m#   sleep 10; alert[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1Halias alert[32m=(B[0;1m[33m'notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || ech[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# Alias definitions.[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# You may want to put all your additions into a separate file like[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# ~/.bash_aliases, instead of adding them here directly.[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# See /usr/share/doc/bash-doc/examples in the bash-doc package.[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[12da[?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l l[?12l[?25h[?25ls[?12l[?25h[?25ll[?12l[?25h[?25l[32m=[39m(B[m[?12l[?25h[?25l'[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -l[39m(B[m[?12l[?25h[?25l[11G(B[0;1m[33m'ls -l'[39m(B[m[?12l[?25h[?25l7[13;22r8[13dM[1;24r[13;1H[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l l[?12l[?25h[?25ls[?12l[?25h[?25lR[?12l[?25h[?25l[32m=[39m(B[m[?12l[?25h[?25l'[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -R[39m(B[m[?12l[?25h[?25l[11G(B[0;1m[33m'ls -R'[39m(B[m[?12l[?25h[?25l7[14;21r8[14dM[1;24r[14;1H[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l n[?12l[?25h[?25lo[?12l[?25h[?25lA[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lf[?12l[?25h[?25l[32m=[39m(B[m[?12l[?25h[?25l'[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -a[39m(B[m[?12l[?25h[?25l -al[?12l[?25h[?25l[32m|[39m(B[m[?12l[?25h[?25lw[?12l[?25h[?25lc[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -l[39m(B[m[?12l[?25h[?25l[14;14H(B[0;1m[33m'ls -al|wc -l'[39m(B[m[?12l[?25h[?25l7[15;21r8[15dM[1;24r[15;1H[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l n[?12l[?25h[?25lo[?12l[?25h[?25lA[?12l[?25h[?25ls[?12l[?25h[?25lu[?12l[?25h[?25lb[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25l[32m=[39m(B[m[?12l[?25h[?25l'[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -A[39m(B[m[?12l[?25h[?25l -AR[?12l[?25h[?25l(B[0;1m[35m -A[39m(B[m[K[?12l[?25h[?25l -[K[?12l[?25h[?25l(B[0;1m[35m -a[39m(B[m[?12l[?25h[?25l -aR[?12l[?25h[?25l[32m|[39m(B[m[?12l[?25h[?25lw[?12l[?25h[?25lc[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -l[39m(B[m[?12l[?25h[?25l[15;17H(B[0;1m[33m'ls -aR|wc -l'[39m(B[m[?12l[?25h[?25l7[16;21r8[16dM[1;24r[16;1H[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l n[?12l[?25h[?25lo[?12l[?25h[?25lA[?12l[?25h[?25lc[?12l[?25h[?25ls[?12l[?25h[?25l[32m=[39m(B[m[?12l[?25h[?25l'[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -l[39m(B[m[?12l[?25h[?25l -lR[?12l[?25h[?25l[32m|[39m(B[m[?12l[?25h[?25lg[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25l[32m[[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l(B[0;1m[34mgrep[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l %[?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l ^[?12l[?25h[?25l[32m[[39m(B[m[?12l[?25h[?25lg[?12l[?25h[?25lt[?12l[?25h[?25lw[?12l[?25h[?25l[32m][39m(B[m[?12l[?25h[?25l[32m|[39m(B[m[?12l[?25h[?25lw[?12l[?25h[?25lc[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -l[39m(B[m[?12l[?25h[?25l[16;13H(B[0;1m[33m'ls -lR|grep ^[gtw]|wc -l'[39m(B[m[?12l[?25h[?25l7[17;21r8[17dM[1;24r[17;1H[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files[22d(B[0;7mFile Name to Write: .bashrc(B[m[22;28H[?12l[?25h[?25l[33G[1K (B[0;7m[ Writing... ](B[m[K[1;71H(B[0;7m        (B[m[22;31H(B[0;7m[ Wrote 122 lines ](B[m[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l/home/niwahang>source .bashrc
+]0;niwahang@ubuntu: ~[01;32mniwahang@ubuntu[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-03-26 20:55:58-07:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-03-26 21:15:26-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;niwahang@ubuntu: ~[01;32mniwahang@ubuntu[00m:[01;34m~[00m$ PS1='$PWD>'
+/home/niwahang>s[Klsl
+total 68
+-rw-rw-r-- 1 niwahang niwahang 31291 Mar 26 20:55 20048942CW1P1
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 26 20:13 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 [01;34mDocuments[0m
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 [01;34mDownloads[0m
+drwxrwxr-x 7 niwahang niwahang  4096 Mar 26 20:40 [01;34mIPL[0m
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 [01;34mMusic[0m
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 [01;34mPictures[0m
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 [01;34mPublic[0m
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 [01;34mTemplates[0m
+drwxr-xr-x 2 niwahang niwahang  4096 Mar 19 00:43 [01;34mVideos[0m
+/home/niwahang>lsR
+.:
+20048942CW1P1  [0m[01;34mDocuments[0m  [01;34mIPL[0m    [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDesktop[0m        [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPublic[0m    [01;34mVideos[0m
+
+./Desktop:
+
+./Documents:
+
+./Downloads:
+
+./IPL:
+ [01;34mKKR[0m  [01;34m'Mumbai Indians'[0m   [01;34mPunjab[0m  [01;34m'Rajisthan Royals'[0m   [01;34mRCB[0m
+
+./IPL/KKR:
+
+'./IPL/Mumbai Indians':
+
+./IPL/Punjab:
+
+'./IPL/Rajisthan Royals':
+testX  testY  testZ
+
+./IPL/RCB:
+Niwa  testResult  testX  testY  testZ
+
+./Music:
+
+./Pictures:
+
+./Public:
+
+./Templates:
+
+./Videos:
+/home/niwahang>noAllf
+23
+/home/niwahang>noAsubsir
+616
+/home/niwahang>noAcs
+15
+/home/niwahang>history 7
+  452  PS1='$PWD>'
+  453  lsl
+  454  lsR
+  455  noAllf
+  456  noAsubsir
+  457  noAcs
+  458  history 7
+/home/niwahang>!=6
+!=6: command not found
+/home/niwahang>!-6
+lsR
+.:
+20048942CW1P1  [0m[01;34mDocuments[0m  [01;34mIPL[0m    [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDesktop[0m        [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPublic[0m    [01;34mVideos[0m
+
+./Desktop:
+
+./Documents:
+
+./Downloads:
+
+./IPL:
+ [01;34mKKR[0m  [01;34m'Mumbai Indians'[0m   [01;34mPunjab[0m  [01;34m'Rajisthan Royals'[0m   [01;34mRCB[0m
+
+./IPL/KKR:
+
+'./IPL/Mumbai Indians':
+
+./IPL/Punjab:
+
+'./IPL/Rajisthan Royals':
+testX  testY  testZ
+
+./IPL/RCB:
+Niwa  testResult  testX  testY  testZ
+
+./Music:
+
+./Pictures:
+
+./Public:
+
+./Templates:
+
+./Videos:
+/home/niwahang>fc -e- i
+intall --help
+
+Command 'intall' not found, did you mean:
+
+  command 'install' from deb coreutils (8.30-3ubuntu2)
+
+Try: sudo apt install <deb name>
+
+/home/niwahang>exit
+exit
+
+Script done on 2022-03-26 21:17:11-07:00 [COMMAND_EXIT_CODE="127"]
