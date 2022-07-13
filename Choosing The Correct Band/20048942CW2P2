@@ -1,0 +1,132 @@
+#!/bin/bash
+if ! [[ $1 =~ [Aa-Zz]+$ && $2 =~ ^[0-9]+$ ]]
+then
+        echo -e "Please enter your name.\nPlease enter your ID.\nNote: Please input alphabets and numbers in name and ID respectively."
+        exit
+fi
+password=7777
+n=3
+while [ $n -ge 1 ]
+do
+        echo -e "Please enter the password: \c"
+        read -s key
+        if [ $key == $password ]
+        then
+                break
+        else
+                echo -e "The key you've entered is incorrect.\nPlease input again."
+        fi
+        (( n-- ))
+        if [ $n -lt 1 ]
+        then
+                echo -e "You have entered the password incorrectly 3 times.\nPlease open the program again."
+                exit
+        fi
+done
+
+echo -e "\n-----------------------------------"
+echo -e "|       Welcome To The System     |"
+echo -e "-----------------------------------"
+echo -e "|         ID : $2		  |"
+echo -e "|        Name: $1		  |"
+echo -e "-----------------------------------"
+echo -e "|        Date:\c";date +"%m-%d-%Y	  |" 
+echo -e "-----------------------------------"
+echo -e "|       Time: \c";date +"%r	  |"
+echo -e "-----------------------------------"
+
+function repeat() {
+        echo -e "Do you wish to repeat the program? (Y/N) \c"
+        read ask
+        case $ask in
+        y|Y) Band ;;
+n|N) echo -e "\nThank you for using the program." 
+exit ;;
+        *) echo -e "Choose either (Y/y) or (N/n): \c"
+                read ask
+        esac
+}
+function Select() {
+        PS3="Please select an option from the below list: "
+        select member in ${arr[@]}
+        do
+                case $member in
+                        JL) cat JL ;;
+                        FM) cat FM ;;
+                        KC) cat KC ;;
+                        AY|DH) echo The file is not given.
+                                Select ;;
+                        *) echo Please choose from the options only.
+                                Select ;;
+                esac
+                break                       
+        done
+        repeat
+}
+function Members() {
+        cat Members
+        echo -e "The given names are the star band members from the above mentioned bands. Choose any three star band members from the given table using the member codes."
+        while true
+        do
+		 echo -e "Member codes: \c"
+                read mem1 mem2 mem3
+                declare -a arr=($mem1 $mem2 $mem3)
+                if [ -z arr ]
+                then
+                        echo "Please enter the member codes."
+                        Members
+                elif [ ${#arr[@]} -ne 3 ]
+                then
+                        echo "Please enter the three codes from the above member codes."
+                        Members
+                elif [ $mem1 == $mem2 ] || [ $mem1 == $mem3 ] || [ $mem2 == $mem3 ]
+                then
+                        echo "Please do not repeat the same members."
+                        Members
+                else
+                        for n in ${arr[@]}
+                        do
+                                if [ $n == "JL" ] || [ $n == "AY" ] || [ $n == "FM" ] || [ $n == "DH" ] || [ $n == "KC" ]
+                                then
+                                        continue
+                                elif ! [[ $n =~ [A-Z] ]]
+                                then
+                                        echo "Please use captital letters for the member codes."
+                                        Members
+                                else
+                                        echo "Please select the member codes from the given options."
+                                        Members
+                                fi
+                        done
+                fi
+		break
+        done
+        Select
+}
+function Band() {
+        cat Bands
+        correct=n
+        echo -e "Can you guess which is the best music band from the given options?\nUse the band codes to choose one out of the options."
+        echo -e "Your guess: \c"
+        read code
+        until [ $correct == "y" ]
+        do
+                if [ $code == "NIR" ]
+                then
+                        echo -e "You have guessed it right.\n"
+                        cat Nirvana
+                        correct=y
+                elif ! [[ $code =~ [A-Z] ]]
+                then
+                        echo "Please use capital letters for the codes."
+                        echo -e "Guess again: \c"
+                        read code
+                else
+                        echo "You have guessed it wrong."
+                        echo -e "Guess again: \c"
+                        read code
+                fi
+        done
+        Members
+}
+Band
